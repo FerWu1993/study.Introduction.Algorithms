@@ -31,7 +31,7 @@ public:
 		m_pParent(this),
 		m_pLeftChild(this),
 		m_pRightChild(this){}
-	int insert(RBValue*);
+	int insert(RBValue*); 
 	int check();
 	virtual ~RBValue(){}
 private:

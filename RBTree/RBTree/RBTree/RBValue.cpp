@@ -23,3 +23,14 @@ int RBValue::CheckHead()
 		return RBResult::SUCCESS;
 	}
 }
+//RBValue::~RBValue()												//考虑到叶子节点的删除不需要我们处理
+//{
+//	if (m_pLeftChild->CheckHead() != RBResult::ISHEAD)				//如果是叶子节点 head，不delete其子树
+//	{
+//		delete m_pLeftChild;
+//	}
+//	if (m_pRightChild->CheckHead() != RBResult::ISHEAD)				//如果是叶子节点 head，不delete其子树
+//	{
+//		delete m_pRightChild;
+//	}
+//}
